@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Vertical Navigation</title>
+		<style>
+			ul li {
+				margin: 0; padding: 0;
+				list-style: none; // remove bulletin points
+			}
+			li a {
+				display: block;
+				width: 8em;
+				line-height: 2em; // align the text vertically centre
+				font-size: 1em;
+				text-decoration: none; // remove underline
+				//font-variant: small-caps;
+				background: #D5973C;
+				color: #fff;
+				padding: .2em 0 .2em 1em; 
+				border-bottom: .125em solid white;
+			}
+			li a:hover {
+				background: #87492F;
+				border-left: .4em solid white;
+				width: 7.6em;
+			}
+			li:last-child a {
+				border-bottom: none; // remove border of last anchor tag
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="" title="">home</a></li>
+			<li><a href="" title="">products</a></li>
+			<li><a href="" title="">blog</a></li>
+			<li><a href="" title="">about</a></li>
+			<li><a href="" title="">contact</a></li>
+		</ul>		
+	</body>
+</html>
